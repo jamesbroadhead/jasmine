@@ -80,3 +80,11 @@ body { background-color: #eeeeee; padding: 0; margin: 5px; overflow-y: scroll; }
 #TrivialReporter.show-passed .passed, #TrivialReporter.show-skipped .skipped { display: block; }
 #TrivialReporter #jasmine_content { position: fixed; right: 100%; }
 #TrivialReporter .runner { border: 1px solid gray; display: block; margin: 5px 0; padding: 2px 0 2px 10px; }
+
+pre {
+    background-color: white;
+    border: 1px dashed #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+}
